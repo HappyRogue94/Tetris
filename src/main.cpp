@@ -15,7 +15,7 @@ int main()
    Grid grid = Grid();
    grid.printGrid();
 
-   LBlock Lblock = LBlock();
+   TBlock block = TBlock();
    
    /*
     the WindowShouldClose will detect if escape key is pressed or the 
@@ -27,7 +27,7 @@ int main()
         ClearBackground(darkBlue);
         grid.drawColorInGrid();
 
-        Lblock.Draw();
+        block.Draw();
         EndDrawing();
 
     }

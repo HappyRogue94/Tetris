@@ -62,9 +62,6 @@ public:
     {
         blockID = 4;
         cells[0] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1)};
-        cells[1] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1)};
-        cells[2] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1)};
-        cells[3] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1)};
 
     }
 
@@ -103,12 +100,12 @@ public:
 
 };
 
-class TBlock : public TetrisBlock
+class ZBlock : public TetrisBlock
 {
 public:
-    TBlock()
+    ZBlock()
     {
-        blockID = 6;
+        blockID = 7;
         cells[0] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,1), BlockPosition(1,2)};
         cells[1] = {BlockPosition(0,2), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,1)};
         cells[2] = {BlockPosition(1,0), BlockPosition(1,1), BlockPosition(2,1), BlockPosition(2,2)};

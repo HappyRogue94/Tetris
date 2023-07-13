@@ -2,9 +2,11 @@
 
 TetrisBlock::TetrisBlock()
 {
-    cellSize=30;
-    rotationState=0;
-    colors = getCellColors();
+    cellSize      = 30;
+    rotationState = 0;
+    colors        = getCellColors();
+    row_offset    = 0;
+    col_offset    = 0;
 }
 
 void TetrisBlock::Draw()
