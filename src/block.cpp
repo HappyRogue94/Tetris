@@ -8,6 +8,11 @@ TetrisBlock::TetrisBlock()
 }
 
 void TetrisBlock::Draw()
+
+/*
+This method is called when attemting to draw any block;
+for example to draw an Lblock 
+*/
 {
     std::vector<BlockPosition> tiles = cells[rotationState];
 
