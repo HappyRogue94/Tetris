@@ -11,10 +11,11 @@ public:
     TetrisBlock();
     void Draw();
     void Move(int rows, int cols);
+    std::vector<BlockPosition> getCellPositions();
     int blockID;
     /*
     here we will define the type of blocks as map with 
-    ID of type int and value of type vector containing a BlockPosition obj
+    ID of type int and value of type vector containing a BlockPosition objects
     */
     std::map<int, std::vector<BlockPosition>> cells;
     
