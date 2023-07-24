@@ -22,6 +22,7 @@ Define constructor of LBlock which inherits from TetrisBlock
         cells[1] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(2,1), BlockPosition(2,2)};
         cells[2] = {BlockPosition(1,0), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,0)};
         cells[3] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,1), BlockPosition(2,1)};
+        Move(0,3);
     }
 
 };
@@ -36,6 +37,7 @@ public:
         cells[1] = {BlockPosition(0,1), BlockPosition(0,2), BlockPosition(1,1), BlockPosition(2,1)};
         cells[2] = {BlockPosition(1,0), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,2)};
         cells[3] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(2,0), BlockPosition(2,1)};
+        Move(0,3);
     }
 
 
@@ -51,6 +53,7 @@ public:
         cells[1] = {BlockPosition(0,2), BlockPosition(1,2), BlockPosition(2,2), BlockPosition(3,2)};
         cells[2] = {BlockPosition(2,0), BlockPosition(2,1), BlockPosition(2,2), BlockPosition(2,3)};
         cells[3] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(2,1), BlockPosition(3,1)};
+        Move(0,3);
 
     }
 };
@@ -62,6 +65,7 @@ public:
     {
         blockID = 4;
         cells[0] = {BlockPosition(0,0), BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1)};
+        Move(0,3);
 
     }
 
@@ -78,6 +82,7 @@ public:
         cells[1] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,2)};
         cells[2] = {BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,0), BlockPosition(2,1)};
         cells[3] = {BlockPosition(0,0), BlockPosition(1,0), BlockPosition(1,1), BlockPosition(2,1)};
+        Move(0,3);
 
     }
 
@@ -94,6 +99,7 @@ public:
         cells[1] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,1)};
         cells[2] = {BlockPosition(1,0), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,1)};
         cells[3] = {BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1), BlockPosition(2,1)};
+        Move(0,3);
 
     }
 
@@ -110,6 +116,7 @@ public:
         cells[1] = {BlockPosition(0,2), BlockPosition(1,1), BlockPosition(1,2), BlockPosition(2,1)};
         cells[2] = {BlockPosition(1,0), BlockPosition(1,1), BlockPosition(2,1), BlockPosition(2,2)};
         cells[3] = {BlockPosition(0,1), BlockPosition(1,0), BlockPosition(1,1), BlockPosition(2,0)};
+        Move(0,3);
 
     }
 
