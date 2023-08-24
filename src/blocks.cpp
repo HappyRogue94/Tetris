@@ -53,7 +53,7 @@ public:
         cells[1] = {BlockPosition(0,2), BlockPosition(1,2), BlockPosition(2,2), BlockPosition(3,2)};
         cells[2] = {BlockPosition(2,0), BlockPosition(2,1), BlockPosition(2,2), BlockPosition(2,3)};
         cells[3] = {BlockPosition(0,1), BlockPosition(1,1), BlockPosition(2,1), BlockPosition(3,1)};
-        Move(0,3);
+        Move(-1,3);
 
     }
 };
